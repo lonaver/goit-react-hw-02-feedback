@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import styles from './Section.module.css';
 
 class Section extends Component {
@@ -16,5 +16,5 @@ class Section extends Component {
 export default Section;
 
 Section.propTypes = {
-  title: propTypes.string,
+  title: PropTypes.string,
 };

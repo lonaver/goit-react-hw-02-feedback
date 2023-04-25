@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import styles from './FeedbackOptions.module.css';
 
@@ -29,5 +29,6 @@ class FeedbackOptions extends Component {
 export default FeedbackOptions;
 
 FeedbackOptions.propTypes = {
-  index: propTypes.number,
+  options: PropTypes.array,
+  index: PropTypes.number,
 };

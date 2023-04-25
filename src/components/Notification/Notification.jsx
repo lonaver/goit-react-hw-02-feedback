@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import styles from './Notification.module.css';
 
@@ -12,5 +12,5 @@ class Notification extends Component {
 export default Notification;
 
 Notification.propTypes = {
-  message: propTypes.string,
+  message: PropTypes.string,
 };
